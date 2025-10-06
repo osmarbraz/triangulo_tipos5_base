@@ -40,7 +40,7 @@ class TestTriangulo {
     @Test
     void testGetTipoIsoceles() {
         Triangulo equacao = new Triangulo(2.0, 2.0, 3.0);
-        String retornoEsperado = "Isóceles";
+        String retornoEsperado = "Isósceles";
         String retornoFeito = equacao.getTipo();
         assertEquals(retornoEsperado, retornoFeito);
     }
